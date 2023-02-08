@@ -1,4 +1,4 @@
-package com.tunahan.koincrypto
+package com.tunahan.koincrypto.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,9 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.tunahan.koincrypto.viewmodel.CryptoViewModel
 import com.tunahan.koincrypto.databinding.FragmentListBinding
+import com.tunahan.koincrypto.model.Crypto
 import org.koin.android.ext.android.inject
 import org.koin.android.scope.AndroidScopeComponent
 import org.koin.androidx.scope.fragmentScope

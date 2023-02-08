@@ -1,7 +1,10 @@
-package com.tunahan.koincrypto
+package com.tunahan.koincrypto.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.tunahan.koincrypto.Resource
+import com.tunahan.koincrypto.model.Crypto
+import com.tunahan.koincrypto.repo.CryptoDownload
 import kotlinx.coroutines.*
 
 class CryptoViewModel(
@@ -31,7 +34,7 @@ class CryptoViewModel(
                 resource.data?.let {
                     cryptoList.value = resource
                     cryptoLoading.value = Resource.loading(false)
-                    cryptoError.value = Resource.error("",false)
+                    cryptoError.value = Resource.error("", false)
                 }
             }
         }

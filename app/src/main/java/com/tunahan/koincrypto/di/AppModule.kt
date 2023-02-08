@@ -1,5 +1,9 @@
 package com.tunahan.koincrypto
 
+import com.tunahan.koincrypto.repo.CryptoDownload
+import com.tunahan.koincrypto.repo.CryptoDownloadImpl
+import com.tunahan.koincrypto.service.CryptoAPI
+import com.tunahan.koincrypto.viewmodel.CryptoViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 import retrofit2.Retrofit

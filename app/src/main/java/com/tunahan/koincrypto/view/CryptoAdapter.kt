@@ -1,12 +1,13 @@
-package com.tunahan.koincrypto
+package com.tunahan.koincrypto.view
 
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.tunahan.koincrypto.databinding.RecyclerRowBinding
+import com.tunahan.koincrypto.model.Crypto
 
-class CryptoAdapter(private val cryptoList:ArrayList<Crypto>,private val listener:Listener):
+class CryptoAdapter(private val cryptoList:ArrayList<Crypto>, private val listener: Listener):
     RecyclerView.Adapter<CryptoAdapter.RowHolder>() {
 
     interface Listener {

@@ -1,5 +1,6 @@
 package com.tunahan.koincrypto
 
+import com.tunahan.koincrypto.view.ListFragment
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
 

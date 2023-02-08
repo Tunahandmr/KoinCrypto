@@ -1,5 +1,6 @@
-package com.tunahan.koincrypto
+package com.tunahan.koincrypto.service
 
+import com.tunahan.koincrypto.model.Crypto
 import retrofit2.Response
 import retrofit2.http.GET
 
